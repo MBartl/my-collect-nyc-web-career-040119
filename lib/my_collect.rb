@@ -3,7 +3,7 @@ def my_collect(array)
   new_array = []
   while i < array.length do
     for element in array
-      new_array.push()
+      new_array.push(ar)
     i += 1
   end
 end
