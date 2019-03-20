@@ -1,7 +1,9 @@
 def my_collect(array)
+  i = 0
   new_array = []
-  for element in array
-    new_array.push yield element
+  while i < array.length do
+    new_array.push yield array[i]
+    i += 1
   end
   new_array
 end
