@@ -6,4 +6,5 @@ def my_collect(array)
       new_array.push yield element
     i += 1
   end
+  new_array
 end
